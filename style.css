@@ -1,0 +1,82 @@
+body {
+    background-color: #D4ECDD;
+}
+
+body h1, h2, h3 {
+    color: #152D35;
+    font-weight:900;
+}
+
+body a, p {
+    text-align: justify;
+    color: #112031;
+}
+
+.logo {
+    text-align: center;
+    font-style: italic;
+}
+
+.navi {
+    padding: 0;
+    text-align: center;
+}
+
+.navi li {
+    display: inline;
+}
+
+.navi a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.row {
+    display: flex;
+    padding-top: 30px;
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 10px;
+    top: 50%;
+    max-width: 400px;
+}
+
+.column img {
+    background-color: whitesmoke;
+    border-radius: 20%;
+}
+
+/* button {
+    background-color: #152D35;
+    width: 100px;
+} */
+
+button {
+    background-color: #152D35;
+    color: #D4ECDD;
+    padding: 10px;
+    text-align: center;
+    border-color: #152D35;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#Contact img {
+    background-color: #D4ECDD;
+    border-radius: 0%;
+}
+
+.copy p{
+    margin: auto;
+    display: block;
+    
+}
